@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export default class extends Component {
   constructor(props){
@@ -30,6 +31,8 @@ export default class extends Component {
           <input style={inputSt} type="password" placeholder="Password..." value={this.state.password} onChange={ (event) => { this.setState({ password: event.target.value }) } } />
           <br/>
           <button onClick={this.exe1}>Log - In</button>
+          <br/>
+          <Link to="/3">UserP</Link>
           <br/><br/>
         </div>
 

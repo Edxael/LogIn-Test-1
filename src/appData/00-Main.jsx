@@ -21,7 +21,7 @@ export default class extends Component {
           <div>
 
               <div>
-                <Link to="/">Home</Link>  |  <Link to="/1">Log-In</Link>  |  <Link to="/3">Add-Profile</Link>
+                <Link to="/">Home</Link>  |  <Link to="/1">Log-In</Link>  |  <Link to="/4">Add-Profile</Link>
               </div>
 
               <hr/>
@@ -29,7 +29,8 @@ export default class extends Component {
               <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/1" component={LogIn}/>
-                <Route path="/3" component={AddProfile}/>
+                <Route path="/3" component={Profile}/>
+                <Route path="/4" component={AddProfile}/>
               </Switch>
 
           </div>
